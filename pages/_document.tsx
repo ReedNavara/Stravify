@@ -22,4 +22,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+module.exports = MyDocument
