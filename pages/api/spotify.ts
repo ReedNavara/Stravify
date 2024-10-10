@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import querystring from 'querystring'
 
-const client_id = '4e936de4cc3e4c6db5d0a5da2d2bc860'
-const client_secret = '4990c24afc1c403fa72170bfc392a634'
+const client_id = 'myclient_id'
+const client_secret = 'myclient_secret'
 const redirect_uri = 'https://Stravify-1.reedn84.repl.co/api/spotify?path=callback'
 
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
