@@ -1,5 +1,4 @@
 import { useId } from "react";
-
 import { cn } from "@/lib/utils";
 
 interface DotPatternProps {
@@ -13,7 +12,8 @@ interface DotPatternProps {
   className?: string;
   [key: string]: any;
 }
-export function DotPattern({
+
+function DotPattern({
   width = 16,
   height = 16,
   x = 0,
@@ -31,7 +31,7 @@ export function DotPattern({
       aria-hidden="true"
       className={cn(
         "pointer-events-none absolute inset-0 h-full w-full fill-neutral-400/80",
-        className,
+        className
       )}
       {...props}
     >
@@ -53,4 +53,4 @@ export function DotPattern({
   );
 }
 
-module.exports = DotPattern;
+export { DotPattern }

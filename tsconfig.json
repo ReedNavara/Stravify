@@ -18,13 +18,9 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
     "types": ["node"],
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "allowSyntheticDefaultImports": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/prop-types.d.ts"]
