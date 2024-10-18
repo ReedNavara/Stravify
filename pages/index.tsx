@@ -72,7 +72,7 @@ export default function Home() {
           <div className="text-center w-full mb-8">
             <div className="group relative mx-auto w-full max-w-[265px] sm:max-w-[300px] md:max-w-[350px]">
               <div className="absolute -inset-1.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 animate-border-beam"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-purple-600 animate-border-beam"></div>
               </div>
               <Card className="relative w-full h-[57px] bg-black flex items-center justify-center p-1">
                 <span className="text-4xl font-bold" style={{
