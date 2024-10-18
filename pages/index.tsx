@@ -5,8 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Card } from "@/components/ui/card"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-
-const { DotPattern } = require("@/components/ui/background");
+import { DotPattern } from "@/components/ui/background"
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -48,7 +47,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center relative">
-      <DotPattern className="absolute inset-0 opacity-10" />
+      <DotPattern className="absolute inset-0 opacity-50" />
 
       <header className="w-full p-4 flex justify-end">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
